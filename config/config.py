@@ -28,15 +28,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Itz-mst-boy/HeroMusicBot",
+    "https://github.com/Umutsuzben/mukhushi-music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/mukhushi_official"
+    "SUPPORT_CHANNEL", "https://t.me/ExtremeSohbet"
 )  # Example:- https://t.me/mukhushi_official
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/worldwide_friend_zone"
+    "SUPPORT_GROUP", "https://t.me/ExtremeSohbet"
 )  # Example:- https://t.me/worldwide_friend_zone
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
